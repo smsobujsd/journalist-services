@@ -1,0 +1,83 @@
+.header-container{
+    margin: 0 !important;
+}
+.date{
+    float: inline-start;
+}
+#navbarSupportedContent ul li{
+   text-align: center;
+}
+.image{
+    width: 50%;
+
+
+ 
+}
+.link-data{
+    float: left;
+    margin-left: 10px;
+}
+.link-data a{
+    color: rgb(20, 42, 61);
+
+}
+ 
+ 
+  .img-body{
+   margin-left: 10px;
+    height: 150px;
+    width: 200px;
+    padding: 10px;
+    float: left;
+  }
+  .container-body{
+    height: 500px;
+  }
+
+
+
+/* about section image css */
+.nav-link {
+    top:0;
+    color: aliceblue;
+    margin: auto;
+    position: sticky;
+    z-index: 2;
+}
+.nav-link a:hover {
+    background-color: darkgrey;
+}
+  
+
+/* services section css */
+.servicesText:hover{
+    background-color: rgb(153, 148, 158);
+}
+.language{
+    display: block;
+}
+.click-me{
+    
+
+}
+.click-me:hover{
+    
+    color: rosybrown;
+}
+
+
+@media (min-width: 768px){
+.col-md-2 {
+    flex: 0 0 auto;
+    width: 9.666667% ;
+}
+.form-control {
+    margin-top: -2.3%;
+}   
+
+}
+@media (min-width: 990px){
+    .form-control{
+        margin-top: 8px;
+    }
+}
